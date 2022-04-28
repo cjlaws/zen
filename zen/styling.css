@@ -1,0 +1,269 @@
+body {
+	background-color:  lightblue;
+}
+
+p {
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color: whitesmoke;
+	position: absolute;
+	top: 550px;
+}
+
+img {
+	cursor: pointer;
+}
+
+#page {
+	width: 100%;
+	height: 1000px;
+}
+
+#sign{
+	position:  absolute;
+	top:  0px;
+	left:  350px;
+	width:  350px;
+	height:  280px;
+	z-index:  62;
+}
+
+#topsign{
+	position:  absolute;
+	top:  100px;
+	left:  470px;
+	font-size: 1.5em;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color:  saddlebrown;
+	z-index:  62;
+}
+
+#bottomsign{
+	position:  absolute;
+	top:  180px;
+	left:  450px;
+	font-size:  1.5em;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color:  saddlebrown;
+	z-index:  62;
+}
+
+#fishbutton{
+	position:  absolute;
+	top:  730px;
+	left:  200px;
+	width:  140px;
+	height:  50px;
+	font-size:  15px;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	background-color:  lightgray;
+	color: dimgray;
+	border-color:  dimgray;
+	border-radius: 40px;
+	z-index:  60;
+}
+
+
+#clearbutton{
+	position:  absolute;
+	top:  440px;
+	right:  60px;
+	width:  140px;
+	height:  50px;
+	font-size:  15px;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	background-color:  lightgray;
+	color: dimgray;
+	border-color:  dimgray;
+	border-radius: 40px;
+	z-index:  60;
+}
+
+#vines{
+	position:  absolute;
+	top:  0px;
+	left:  280px;
+	width:  500px;
+	z-index:  60;
+}
+
+#tree1{
+	position:  absolute;
+	top:  0px;
+	right: 0px;
+	width:  200px;
+	height:  400px;
+	z-index:  30;
+}
+
+#bamboo1{
+	position:  absolute;
+	top:  50px;
+	left: 0px;
+	width:  200px;
+	height:  400px;
+	z-index: 54;
+}
+
+#bamboo2{
+	position:  absolute;
+	top:  80px;
+	left: 90px;
+	width:  200px;
+	height:  400px;
+	z-index: 54;
+}
+
+#bamboo3{
+	position:  absolute;
+	top:  340px;
+	left: 0px;
+	width:  200px;
+	height:  400px;
+	z-index: 55;
+}
+
+#bamboo4{
+	position:  absolute;
+	top:  380px;
+	left: 90px;
+	width:  200px;
+	height:  400px;
+	z-index: 55;
+}
+
+#bushpink{
+	position:  absolute;
+	top:  610px;
+	right:  0px;
+	width:  220px;
+	height:  220px;
+	z-index:  56;
+}
+
+#bushpurple{
+	position:  absolute;
+	top:  610px;
+	left:  700px;
+	width:  220px;
+	height:  210px;
+	z-index:  59;
+}
+
+#grass{
+	position:  absolute;
+	top:  640px;
+	left:  850px;
+	width:  500px;
+	height:  150px;
+}
+
+
+#stone1{
+	position:  absolute;
+	top:  330px;
+	right: 0px;
+	width: 240px;
+	height: 160px;
+	transform: scaleX(-1);
+	z-index: 40;
+}
+
+#stone2{
+	position:  absolute;
+	top:  640px;
+	left: 20px;
+	width: 300px;
+	height: 200px;
+	z-index: 58;
+}
+
+#bridge{
+	position:  absolute;
+	top:  560px;
+	left:  220px;
+	width:  620px;
+	height:  240px;
+	transform: rotate(10deg);
+	z-index: 56;
+}
+
+#waterOverlay {
+	opacity: 50%;
+	position:  absolute;
+	top:  250px;
+	left: 260px;
+	border: 5px solid whitesmoke;
+	border-radius: 250px;
+}
+
+#waterOverlay:hover {
+	border: 5px dashed whitesmoke;
+	cursor: pointer;
+}
+
+
+.FishCanvas {
+	border: 1px solid lightblue;
+	border-radius: 250px;
+	position:  absolute;
+	top:  250px;
+	left: 260px;
+}
+
+.SandCanvas {
+	border : 5px solid lightgray;
+	border-radius : 250px;
+	position:  absolute;
+	top:  50px;
+	right: 200px;
+	/*https://www.pixilart.com/art/pixel-rake-bea0679ba7612d1*/
+	cursor: url(rake_small.png), crosshair;
+}
+
+.SandCanvas:hover{
+	border:  5px dashed silver;
+}
+
+
+#timer {
+	width: 200px;
+	height: 100px;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color: whitesmoke;
+	font-size: 80px;
+	text-align: right;
+	vertical-align: middle;
+	align: auto;
+	display: block;
+	position: absolute;
+	top: 540px;
+	left: 970px;
+}
+
+#record {
+	width: 100px;
+	height: 50px;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color: whitesmoke;
+	font-size: 40px;
+	text-align: right;
+	vertical-align: middle;
+	align: auto;
+	display: block;
+	position: absolute;
+	top: 640px;
+	left: 1090px;
+	border: 2px solid whitesmoke;
+}
+
+#timerLabel {
+	top: 510px;
+	left: 1030px;
+	font-size:  1.2em;
+}
+
+#recordLabel {
+	top: 640px;
+	left: 960px;
+	font-size:  1.2em;
+}
